@@ -24,7 +24,7 @@ prev.addEventListener('click', () => {
 function update() {
   circles.forEach((circle, idx) => {
     if(idx < currentActive) {
-      circle.classList.a  dd('active')
+      circle.classList.add('active')
     } else {
       circle.classList.remove('active')
     }
