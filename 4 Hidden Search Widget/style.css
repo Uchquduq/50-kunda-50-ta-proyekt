@@ -50,7 +50,7 @@ body {
 }
 
 .search.active .input {
-  width: 200px;
+  width: 200px; 
 }
 
 .search.active .btn {
