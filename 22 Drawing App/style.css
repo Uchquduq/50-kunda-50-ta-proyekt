@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:wght;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -21,23 +21,23 @@ canvas {
 
 .toolbox {
   background-color: steelblue;
-  border: 1px solid steelblue;
+  border: 1px solid slateblue;
   display: flex;
   width: 804px;
   padding: 1rem;
 }
 
-.toolbox * {
+.toolbox > * {
   background-color: #fff;
-  display: flex;
+  border: none;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
+  font-size: 2rem;
   height: 50px;
   width: 50px;
-  font-size: 2rem;
   margin: 0.25rem;
   padding: 0.25rem;
-  border: none;
   cursor: pointer;
 }
 
