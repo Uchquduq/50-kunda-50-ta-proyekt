@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:wght;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(255, 250, 0);
+  background: linear-gradient(21deg, rgba(255, 250, 0, 1) 2%, rgba(0, 58, 251, 1) 71%, rgba(0, 49, 156, 1) 100%);
+  background-color: #f4f4f4;
+  font-family: 'Rubik Microbe', cursive;
+  display: flex;
+  font-size: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  color: rgba(253, 253, 0, 0.875);
+}
+
+.title {
+  margin: 10px 0 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container img {
+  max-width: 100%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 10px;
+  -webkit-box-shadow: 4px 4px 26px -1px rgba(0, 120, 255, 0.2);
+  -moz-box-shadow: 4px 4px 26px -1px rgba(0, 120, 255, 0.2);
+  box-shadow: 4px 4px 26px -1px rgba(0, 120, 255, 0.2);
+}
